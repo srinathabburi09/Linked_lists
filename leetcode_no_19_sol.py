@@ -22,3 +22,4 @@ class Solution:
 
 #why not for loop ranges n, if n = 5 then it becomes complicate to delete the head so that we need to write a extra conditional statement that if fast == Null(in for loop), then the node that should be deleted is head, so that we need to update as return head.next
 #so that we use dummy node it gives the extra node, if n = 5, the fast in for loop starts at dummy_node and fast reaches None and slow which is pointed to dummy, updates slow.next -> slow.next.next and then simply return dummy.next which will be the next node of the dummy node        
+#time and space - O(n) as we iterating over the loop and O(1),for no extra data structure used
